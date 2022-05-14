@@ -1,0 +1,11 @@
+
+<!--DASHBOARD DE LA PAG PRINCIPAL-->
+<h2> Bienvenido al mercado WEB, seleccione sus productos </h2>
+
+<div class="row">
+    {{#each productos}}
+        {{> producto item=this.nombre}}
+    {{/each}}
+</div>
+
+
